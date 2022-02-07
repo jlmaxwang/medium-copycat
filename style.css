@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+body {
+  background-color:#EEEEEE ;
+}
+.container  {
+  max-width: 700px;
+  margin: 50px auto;
+}
+.banner {
+  text-align: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://source.unsplash.com/random/1000x500);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 120px 0;
+}
+.banner h1 {
+  color: #EFEFEF;
+  font-size: 5rem;
+}
+
+.banner p {
+  color: #D1D1D1;
+  font-size: 3rem;
+  text-align: center;
+}
+.container h2 {
+  color: #D1D1D1;
+  font-size: 3rem;
+  text-align: left;
+}
+.container p {
+  text-align: left;
+  padding: 2rem 0 2rem 0;
+}
+.container .link-contents {
+  display: inline-block;
+  font-size: 3rem;
+  font-style: italic;
+  margin: 2rem 0 2rem 0;
+  text-decoration: none;
+  text-align: left;
+}
+.link-contents:hover {
+  background-image: linear-gradient(to bottom, rgba(233, 253, 240, 1), rgba(233, 253, 240, 1));
+}
+.footer {
+  color: #92A9BD;
+  height: 0.1rem;
+}
